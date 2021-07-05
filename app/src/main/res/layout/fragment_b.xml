@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.FragmentB"
+             android:background="#E4A8A8">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frament B"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginVertical="50dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+        ></TextView>
+
+        <EditText
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+        </EditText>
+        <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ed2"
+        ></Button>
+
+    </RelativeLayout>
+
+</FrameLayout>
